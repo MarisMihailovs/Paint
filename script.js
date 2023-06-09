@@ -34,14 +34,15 @@ let currentColor = '#A51DAB';
 // });
 
 // Setting Brush Color
-// brushColorBtn.addEventListener('change', () => {
+brushColorBtn.addEventListener('change', () => {
 
-// });
+});
 
 // Setting Background Color
-// bucketColorBtn.addEventListener('change', () => {
-
-// });
+bucketColorBtn.addEventListener('change', () => {
+  bucketColor = `#${bucketColorBtn.value}`;
+  createCanvas();
+});
 
 // // Eraser
 // eraser.addEventListener('click', () => {
